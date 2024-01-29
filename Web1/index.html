@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>FoodiePie</title>
+	<link rel="stylesheet" href="./style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<section id="home">
+		<nav id="navbar">
+			<div class="logo">
+				<a href="#home">Foo<span style="color:#ed55a8;">die</span>Pie</a>
+			</div>
+			<div class="ancr">
+				<a href="" id="a" title="">Home</a>
+				<a href="" id="a" title="">Dishes</a>
+				<a href="" id="a" title="">About</a>
+				<a href="" id="a" title="">Review</a>
+				<a href="" id="a" title="">Order</a>
+			</div>
+			<div id="sch">
+				<i id="cart" class='bx bx-cart-alt'></i>
+				<i id="search" onclick="show()" class='bx bx-search-alt'></i>
+				<i id="circle"  class='bx bx-heart-circle'></i>
+				<i id="crox" onclick="hide()" class='bx bx-x'></i>
+
+			</div>
+		</nav>
+		<div class="m">
+			<div class="container1">
+
+				<!-- <div class="img1">
+					<img src="./Fimg/pizza.png" class="slide"></img>
+					<h1>Margarita Pizza Margherita Italian cuisine Tomato</h1>
+				</div> -->
+				<div class="img1">
+					<div class="img2"><img src="./Fimg/pizza.png"></div>
+					<div class="text"><h1><span>Our Special Dish</span><br>Margarita Pizza</h1>
+					<button><a href="" title="">Order Now</a></button>
+					</div>
+				</div>
+				<div class="img1">
+					<div class="img2 img-2_2"><img src="./Fimg/burger.png"></div>
+					<div class="text"><h1><span>Our Special Dish</span><br>Cheese Hamburger</h1>
+					<button><a href="" title="">Order Now</a></button>		
+					</div>
+				</div>
+				<div class="img1">
+					<div class="img2"><img src="./Fimg/chicken.png"></div>
+					<div class="text"><h1><span>Our Special Dish</span><br> Tandoori Chicken</h1>
+					<button><a href="" title="">Order Now</a></button>
+					</div>
+					
+				</div>
+			</div>
+			<button class="a" onclick="goPrev()"><</button>
+			<button class="b" onclick="goNext()">></button>
+			<div class="searchbar">
+				<form action="" method="get" accept-charset="utf-8">
+						<input autofocus="" style="color:black;"  placeholder="Search..." type="search" name="search" id="scrh">
+						<input type="submit" name="Search" value="Search" style="color: white; text-decoration: none; background-color: #27ae60; font-family: rej; cursor: pointer;">
+				</form>			
+			</div>
+		</div>
+	</section>
+	<section id="dishes">
+		<h1>Our Dishes</h1>
+		<h3>Popular Dishes</h3>
+		<div class="container1">
+			<div>
+				<img src="./Fimg/chicken.png">
+				
+			</div>
+			<div></div>
+			<div></div>
+		</div>						
+		<div class="container2">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</section>
+
+
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
