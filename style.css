@@ -120,9 +120,10 @@ body{
 	width: 100%;
 	justify-content: space-between;
 	height: 100vh;
-	background: url('./moon mountain.jpg') no-repeat;
+	/*background: url('./moon mountain.jpg') no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center;*/
+	background:#333;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
